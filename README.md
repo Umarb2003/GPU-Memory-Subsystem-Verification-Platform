@@ -1,1 +1,3 @@
 # GPU-Memory-Subsystem-Verification-Platform
+
+Developed a GPU-style memory subsystem verification platform using SystemVerilog, Python, and Cocotb to validate memory transactions, arbitration logic, and data integrity. Designed a two-client memory controller with round-robin arbitration and implemented directed and randomized verification tests to evaluate read/write operations, simultaneous memory requests, and boundary conditions. Built a Python reference model and scoreboard to automatically detect incorrect memory responses, along with assertion-based checks for arbitration and protocol behavior. Integrated automated regression testing, functional scenario coverage reporting, and GitHub Actions to support repeatable RTL verification and debugging.
